@@ -108,7 +108,6 @@ export default function Hero() {
                     alt="hero-image"
                     className="h-full w-full object-cover object-top"
                   />
-
                   {/* Overlay content */}
                   <div className="absolute inset-0 flex flex-col justify-end p-8 bg-linear-to-t from-primary/80 via-primaryHover/40 to-transparent">
                     <div className="space-y-3 text-surface">
