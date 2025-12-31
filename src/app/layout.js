@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import { Toaster } from "react-hot-toast";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -21,6 +22,12 @@ export default function RootLayout({ children }) {
         <header className="sticky top-0 z-50">
           <Navbar />
         </header>
+        <Toaster
+          position="top-center"
+          toastOptions={{
+            duration: 3500,
+          }}
+        />
         <main className=" lg:min-h-[calc(100vh-696.5px)]">{children}</main>
         <div>
           <Footer />

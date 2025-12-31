@@ -2,6 +2,7 @@
 
 import React from "react";
 import { useForm } from "react-hook-form";
+import toast from "react-hot-toast";
 
 export default function ContactFormCard() {
   const [isHydrated, setIsHydrated] = React.useState(false);
@@ -26,25 +27,24 @@ export default function ContactFormCard() {
   }, []);
 
   if (!isHydrated) {
-    return (
-      <div className="bg-surface rounded-2xl p-8 lg:p-10 shadow-2xl" />
-    );
+    return <div className="bg-surface rounded-2xl p-8 lg:p-10 shadow-2xl" />;
   }
 
-
   const onSubmit = async (data) => {
-    const response = await fetch("/api/contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data),
-    });
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
 
-    if (!response.ok) {
-      throw new Error("Failed to send contact form.");
+      if (!res.ok) throw new Error("Failed");
+
+      toast.success("Message sent! We’ll get back to you soon.");
+      reset();
+    } catch (e) {
+      toast.error("Something went wrong. Please try again.");
     }
-
-    console.log("Contact form submitted:", data);
-    reset();
   };
 
   const inputBase =
@@ -55,7 +55,10 @@ export default function ContactFormCard() {
     "border-red-500 focus:border-red-500 focus:ring-2 focus:ring-red-500/20";
 
   return (
-    <div className="bg-surface rounded-2xl p-8 lg:p-10 shadow-2xl" suppressHydrationWarning>
+    <div
+      className="bg-surface rounded-2xl p-8 lg:p-10 shadow-2xl"
+      suppressHydrationWarning
+    >
       <h3 className="text-2xl font-bold mb-6 text-text">Send Us a Message</h3>
 
       {/* success message (optional) */}
