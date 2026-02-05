@@ -19,6 +19,8 @@ export default function ContactFormCard() {
       email: "",
       phone: "",
       message: "",
+      marketingConsent: false,
+      nonMarketingConsent: false,
     },
   });
 
@@ -213,6 +215,59 @@ export default function ContactFormCard() {
               {errors.message.message}
             </p>
           )}
+        </div>
+
+        {/* SMS Consent */}
+        <div className="space-y-4">
+          {/* Marketing Consent */}
+          <div>
+            <label className="flex items-start gap-3 text-sm text-muted">
+              <input
+                type="checkbox"
+                {...register("marketingConsent", {
+                  required: "Marketing SMS consent is required.",
+                })}
+                className="mt-1"
+              />
+              <span>
+                I consent to receive marketing text messages from
+                <strong> Essenza Wellness Center</strong> at the phone number
+                provided. Frequency may vary. Message & data rates may apply.
+                Text HELP for assistance, reply STOP to opt out.
+              </span>
+            </label>
+
+            {errors.marketingConsent && (
+              <p className="mt-2 text-sm text-red-600">
+                {errors.marketingConsent.message}
+              </p>
+            )}
+          </div>
+
+          {/* Non-Marketing Consent */}
+          <div>
+            <label className="flex items-start gap-3 text-sm text-muted">
+              <input
+                type="checkbox"
+                {...register("nonMarketingConsent", {
+                  required: "Transactional SMS consent is required.",
+                })}
+                className="mt-1"
+              />
+              <span>
+                I consent to receive non-marketing text messages from
+                <strong> Essenza Wellness Center</strong> about appointment
+                reminders, order updates, etc. Message & data rates may apply.
+                Text HELP for assistance, reply STOP to opt out.
+              </span>
+            </label>
+
+            {errors.nonMarketingConsent && (
+              <p className="mt-2 text-sm text-red-600">
+                {errors.nonMarketingConsent.message}
+              </p>
+            )}
+          </div>
         </div>
 
         <button

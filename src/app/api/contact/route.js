@@ -4,12 +4,18 @@ import { google } from "googleapis";
 export async function POST(req) {
   try {
     const body = await req.json();
-
     // basic validation
-    if (!body.firstName || !body.lastName || !body.email || !body.message) {
+    if (
+      !body.firstName ||
+      !body.lastName ||
+      !body.email ||
+      !body.message ||
+      !body.marketingConsent ||
+      !body.nonMarketingConsent
+    ) {
       return NextResponse.json(
         { error: "Missing required fields" },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -34,8 +40,9 @@ export async function POST(req) {
       body.email,
       body.phone || "",
       body.message,
+      body.marketingConsent ? "Yes" : "No",
+      body.nonMarketingConsent ? "Yes" : "No",
     ];
-
 
     await sheets.spreadsheets.values.append({
       spreadsheetId,
