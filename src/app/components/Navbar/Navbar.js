@@ -142,7 +142,7 @@ const Navbar = () => {
                   >
                     <Link
                       href={item.href}
-                      className={`flex items-center gap-1 px-3.5 py-2.5 no-underline text-base font-medium rounded-md transition-colors ${
+                      className={`flex items-center gap-1 px-3.5 py-2.5 no-underline text-base font-medium rounded-md transition-colors  ${
                         isActive(item.href)
                           ? "text-primary bg-primary/5"
                           : "text-text hover:bg-primary/5"
