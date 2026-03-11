@@ -5,7 +5,7 @@ import Container from "../../components/Container/Container";
 export const metadata = {
   title: "TMS Therapy | Essenza Wellness Center",
   description:
-    "FDA-cleared transcranial magnetic stimulation (TMS) therapy for depression, anxiety, and OCD — non-invasive, drug-free, proven effective.",
+    "FDA-cleared transcranial magnetic stimulation (TMS) therapy for depression, anxiety, and OCD non-invasive, drug-free, proven effective.",
 };
 
 const benefits = [
@@ -40,7 +40,7 @@ export default function TMSTherapyPage() {
             TMS <span className="text-highlight">Therapy</span>
           </h1>
           <p className="text-lg md:text-xl text-muted mt-6 max-w-3xl mx-auto leading-relaxed">
-            FDA-cleared transcranial magnetic stimulation — a safe, non-invasive, drug-free treatment for depression, anxiety, and OCD.
+            FDA-cleared transcranial magnetic stimulation a safe, non-invasive, drug-free treatment for depression, anxiety, and OCD.
           </p>
           <div className="inline-flex items-center gap-2 mt-6 bg-highlight/10 border border-highlight/30 rounded-full px-4 py-2">
             <Award className="w-4 h-4 text-highlight" />
@@ -61,7 +61,7 @@ export default function TMSTherapyPage() {
                 Transcranial Magnetic Stimulation (TMS) uses focused magnetic pulses to stimulate specific neural circuits in the brain that are underactive in depression and other mood disorders. It is performed in our office, requires no anesthesia, and patients can drive themselves home immediately after.
               </p>
               <p className="text-muted leading-relaxed">
-                At Essenza, we guide TMS protocols with qEEG brain mapping for precise targeting — maximizing effectiveness and minimizing treatment time.
+                At Essenza, we guide TMS protocols with qEEG brain mapping for precise targeting maximizing effectiveness and minimizing treatment time.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">

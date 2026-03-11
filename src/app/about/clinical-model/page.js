@@ -14,7 +14,7 @@ const steps = [
     step: "01",
     title: "Comprehensive Assessment",
     description:
-      "Your journey begins with an in-depth evaluation — medical history, neurological screening, advanced diagnostics (qEEG, labs, biomarkers), and a thorough understanding of your lifestyle and goals.",
+      "Your journey begins with an in-depth evaluation medical history, neurological screening, advanced diagnostics (qEEG, labs, biomarkers), and a thorough understanding of your lifestyle and goals.",
     highlights: ["Neurological & psychiatric evaluation", "Advanced biomarker testing", "Brain mapping (qEEG) when indicated"],
   },
   {
@@ -30,7 +30,7 @@ const steps = [
     step: "03",
     title: "Evidence-Based Treatment",
     description:
-      "We deliver FDA-cleared therapies and evidence-based interventions — including TMS, ketamine protocols, hormone optimization, and longevity medicine — with safety as our highest priority.",
+      "We deliver FDA-cleared therapies and evidence-based interventions including TMS, ketamine protocols, hormone optimization, and longevity medicine with safety as our highest priority.",
     highlights: ["FDA-cleared therapeutic modalities", "Ongoing safety monitoring", "Direct physician oversight"],
   },
   {
@@ -55,7 +55,7 @@ export default function ClinicalModelPage() {
         <div className="relative max-w-7xl mx-auto px-6 text-center">
           <div className="inline-flex items-center gap-2 bg-primary/5 border border-primary/20 rounded-full px-4 py-2 mb-6">
             <div className="w-2 h-2 bg-primary rounded-full" />
-            <span className="text-sm font-medium text-primary">About — Clinical Model</span>
+            <span className="text-sm font-medium text-primary">About Clinical Model</span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight tracking-tight">
             Our <span className="text-highlight">Clinical Model</span>

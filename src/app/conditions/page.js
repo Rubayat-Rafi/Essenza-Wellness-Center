@@ -18,19 +18,19 @@ const conditions = [
   {
     icon: Activity,
     title: "Cognitive Decline & Memory Loss",
-    description: "Early detection, risk reduction, and comprehensive management of memory disorders — including Alzheimer's, MCI, and age-related cognitive changes.",
+    description: "Early detection, risk reduction, and comprehensive management of memory disorders including Alzheimer's, MCI, and age-related cognitive changes.",
     tags: ["Alzheimer's Disease", "MCI", "Memory Loss", "Brain Fog"],
   },
   {
     icon: Users,
     title: "Hormonal Imbalance",
-    description: "Comprehensive hormonal evaluation and personalized optimization for energy, mood, cognition, and overall vitality — for both men and women.",
+    description: "Comprehensive hormonal evaluation and personalized optimization for energy, mood, cognition, and overall vitality for both men and women.",
     tags: ["Perimenopause", "Thyroid Disorders", "Adrenal Issues", "Low Testosterone"],
   },
   {
     icon: Heart,
     title: "Chronic Stress & Burnout",
-    description: "Identifying and addressing the physiological and neurological impact of chronic stress — restoring resilience, focus, and emotional balance.",
+    description: "Identifying and addressing the physiological and neurological impact of chronic stress restoring resilience, focus, and emotional balance.",
     tags: ["Burnout", "Chronic Fatigue", "HPA Axis Dysfunction", "Adrenal Fatigue"],
   },
   {
@@ -65,7 +65,7 @@ export default function ConditionsPage() {
             Conditions <span className="text-highlight">We Treat</span>
           </h1>
           <p className="text-lg md:text-xl text-muted mt-6 max-w-3xl mx-auto leading-relaxed">
-            We specialize in complex neuropsychiatric and wellness conditions — providing answers, personalized care plans, and hope for patients who haven't found success elsewhere.
+            We specialize in complex neuropsychiatric and wellness conditions providing answers, personalized care plans, and hope for patients who haven't found success elsewhere.
           </p>
         </div>
       </section>
@@ -103,7 +103,7 @@ export default function ConditionsPage() {
           </div>
 
           <div className="mt-16 text-center">
-            <p className="text-muted mb-6">Don't see your condition listed? Contact us — we treat a wide range of neurological and psychiatric concerns.</p>
+            <p className="text-muted mb-6">Don't see your condition listed? Contact us we treat a wide range of neurological and psychiatric concerns.</p>
             <Link
               href="/contact"
               className="inline-flex items-center justify-center gap-2 bg-primary text-bg px-8 py-4 rounded-lg text-base font-semibold hover:bg-primaryHover transition-all shadow-sm hover:shadow-md"

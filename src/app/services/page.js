@@ -5,14 +5,14 @@ import Container from "../components/Container/Container";
 export const metadata = {
   title: "Services | Essenza Wellness Center",
   description:
-    "Explore our full range of neuropsychiatric, longevity, and wellness services — designed to optimize brain health and overall vitality.",
+    "Explore our full range of neuropsychiatric, longevity, and wellness services designed to optimize brain health and overall vitality.",
 };
 
 const services = [
   {
     icon: Stethoscope,
     title: "Mental Health & Psychiatry",
-    description: "Comprehensive psychiatric evaluation and treatment for mood disorders, anxiety, ADHD, and more — with medication management and psychotherapy coordination.",
+    description: "Comprehensive psychiatric evaluation and treatment for mood disorders, anxiety, ADHD, and more with medication management and psychotherapy coordination.",
     href: "/services/mental-health-psychiatry",
   },
   {
@@ -48,13 +48,13 @@ const services = [
   {
     icon: Users,
     title: "Women's Health & Hormone Optimization",
-    description: "Specialized care for perimenopause, hormonal imbalances, and reproductive health — with personalized hormone therapy tailored for every life stage.",
+    description: "Specialized care for perimenopause, hormonal imbalances, and reproductive health with personalized hormone therapy tailored for every life stage.",
     href: "/services/womens-health-hormone-optimization",
   },
   {
     icon: Shield,
     title: "Geriatric & Cognitive Care",
-    description: "Dedicated support for memory disorders, cognitive decline, and healthy brain aging — with compassionate, evidence-based neurological care.",
+    description: "Dedicated support for memory disorders, cognitive decline, and healthy brain aging with compassionate, evidence-based neurological care.",
     href: "/services/geriatric-cognitive-care",
   },
   {
@@ -83,7 +83,7 @@ export default function ServicesPage() {
             Comprehensive <span className="text-highlight">Wellness Services</span>
           </h1>
           <p className="text-lg md:text-xl text-muted mt-6 max-w-3xl mx-auto leading-relaxed">
-            From advanced neurotechnology to personalized longevity medicine — we offer an integrated suite of services to optimize your brain health and overall vitality.
+            From advanced neurotechnology to personalized longevity medicine we offer an integrated suite of services to optimize your brain health and overall vitality.
           </p>
         </div>
       </section>

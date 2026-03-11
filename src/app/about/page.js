@@ -5,7 +5,7 @@ import Container from "../components/Container/Container";
 export const metadata = {
   title: "About Us | Essenza Wellness Center",
   description:
-    "Learn about Essenza Wellness Center — our mission, values, and brain-first approach to longevity and mental wellness.",
+    "Learn about Essenza Wellness Center our mission, values, and brain-first approach to longevity and mental wellness.",
 };
 
 const values = [
@@ -69,7 +69,7 @@ export default function AboutPage() {
                 Our Mission
               </h2>
               <p className="text-lg text-muted leading-relaxed mb-6">
-                We believe the brain is the foundation of every aspect of health. Our mission is to deliver evidence-based, compassionate care that addresses the full spectrum of neurological and psychiatric health — from diagnosis to long-term wellness optimization.
+                We believe the brain is the foundation of every aspect of health. Our mission is to deliver evidence-based, compassionate care that addresses the full spectrum of neurological and psychiatric health from diagnosis to long-term wellness optimization.
               </p>
               <p className="text-muted leading-relaxed">
                 Founded on the principle that cognitive health drives longevity, Essenza brings together board-certified specialists, advanced neurotechnology, and a deeply personalized approach to create care that truly transforms lives.

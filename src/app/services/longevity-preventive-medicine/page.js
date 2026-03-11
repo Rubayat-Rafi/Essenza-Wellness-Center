@@ -12,17 +12,17 @@ const pillars = [
   {
     icon: Microscope,
     title: "Advanced Biomarker Testing",
-    description: "Comprehensive panels including metabolic markers, inflammatory markers, hormones, genetic risk factors, and organ function — painting a complete picture of your biological age.",
+    description: "Comprehensive panels including metabolic markers, inflammatory markers, hormones, genetic risk factors, and organ function painting a complete picture of your biological age.",
   },
   {
     icon: Heart,
     title: "Metabolic Optimization",
-    description: "Targeted interventions for insulin sensitivity, lipid metabolism, body composition, and mitochondrial health — the foundations of cellular longevity.",
+    description: "Targeted interventions for insulin sensitivity, lipid metabolism, body composition, and mitochondrial health the foundations of cellular longevity.",
   },
   {
     icon: BarChart3,
     title: "Cognitive Performance",
-    description: "Protocols to preserve and enhance memory, executive function, and mental clarity — keeping your brain sharp as you age.",
+    description: "Protocols to preserve and enhance memory, executive function, and mental clarity keeping your brain sharp as you age.",
   },
   {
     icon: Shield,
@@ -58,7 +58,7 @@ export default function LongevityPage() {
             Longevity & <span className="text-highlight">Preventive Medicine</span>
           </h1>
           <p className="text-lg md:text-xl text-muted mt-6 max-w-3xl mx-auto leading-relaxed">
-            Proactive, science-driven strategies to maximize your healthspan — living not just longer, but stronger, sharper, and more vital.
+            Proactive, science-driven strategies to maximize your healthspan living not just longer, but stronger, sharper, and more vital.
           </p>
         </div>
       </section>
@@ -75,7 +75,7 @@ export default function LongevityPage() {
                 Traditional medicine waits for illness to appear. Our longevity medicine practice identifies risks years in advance, optimizes your biological systems, and creates personalized protocols that slow aging at the cellular level.
               </p>
               <p className="text-muted leading-relaxed mb-8">
-                We combine the latest research in longevity science with deep clinical expertise to help you feel your best — at any age.
+                We combine the latest research in longevity science with deep clinical expertise to help you feel your best at any age.
               </p>
               <h3 className="text-xl font-bold text-text mb-4">What's Included</h3>
               <ul className="space-y-3">

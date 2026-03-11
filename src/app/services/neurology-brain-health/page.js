@@ -5,7 +5,7 @@ import Container from "../../components/Container/Container";
 export const metadata = {
   title: "Neurology & Brain Health | Essenza Wellness Center",
   description:
-    "Comprehensive migraine and neurological care — integrated neurology and psychiatry for migraines, chronic pain, headache disorders, and more.",
+    "Comprehensive migraine and neurological care integrated neurology and psychiatry for migraines, chronic pain, headache disorders, and more.",
 };
 
 const conditions = [
@@ -45,7 +45,7 @@ export default function NeurologyBrainHealthPage() {
             Neurology & <span className="text-highlight">Brain Health</span>
           </h1>
           <p className="text-lg md:text-xl text-muted mt-6 max-w-3xl mx-auto leading-relaxed">
-            Comprehensive migraine and neurological care — integrating neurology and psychiatry to treat the root causes of chronic pain and headache disorders.
+            Comprehensive migraine and neurological care integrating neurology and psychiatry to treat the root causes of chronic pain and headache disorders.
           </p>
         </div>
       </section>

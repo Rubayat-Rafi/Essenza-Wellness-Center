@@ -58,7 +58,7 @@ export default function RehabilitationPage() {
             Rehabilitation & <span className="text-highlight">Functional Assessment</span>
           </h1>
           <p className="text-lg md:text-xl text-muted mt-6 max-w-3xl mx-auto leading-relaxed">
-            Evidence-based neurological rehabilitation and functional assessments — restoring performance, independence, and quality of life.
+            Evidence-based neurological rehabilitation and functional assessments restoring performance, independence, and quality of life.
           </p>
         </div>
       </section>

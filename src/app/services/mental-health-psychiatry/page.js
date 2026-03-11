@@ -5,7 +5,7 @@ import Container from "../../components/Container/Container";
 export const metadata = {
   title: "Mental Health & Psychiatry | Essenza Wellness Center",
   description:
-    "Comprehensive psychiatric care for depression, anxiety, ADHD, PTSD, and more — led by board-certified psychiatrists.",
+    "Comprehensive psychiatric care for depression, anxiety, ADHD, PTSD, and more led by board-certified psychiatrists.",
 };
 
 const medicationItems = [

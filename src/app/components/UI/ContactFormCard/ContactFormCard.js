@@ -66,7 +66,7 @@ export default function ContactFormCard() {
       {/* success message (optional) */}
       {isSubmitSuccessful && (
         <div className="mb-6 rounded-lg border border-border bg-bg p-4 text-sm text-text">
-          Thanks — your message has been received. We’ll get back to you soon.
+          Thanks your message has been received. We’ll get back to you soon.
         </div>
       )}
 

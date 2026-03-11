@@ -55,6 +55,10 @@ const navData = {
           label: "Rehabilitation & Functional Assessment",
           href: "/services/rehabilitation-functional-assessment",
         },
+        {
+          label: "Essenza Membership Agreement",
+          href: "/services/essenza-membership-agreement",
+        },
       ],
     },
     { label: "Diagnostics & Technology", href: "/diagnostics-technology" },

@@ -5,7 +5,7 @@ import Container from "../components/Container/Container";
 export const metadata = {
   title: "Our Team | Essenza Wellness Center",
   description:
-    "Meet the board-certified specialists at Essenza Wellness Center — experts in psychiatry, neurology, longevity medicine, and women's health.",
+    "Meet the board-certified specialists at Essenza Wellness Center experts in psychiatry, neurology, longevity medicine, and women's health.",
 };
 
 const team = [

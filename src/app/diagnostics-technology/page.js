@@ -5,7 +5,7 @@ import Container from "../components/Container/Container";
 export const metadata = {
   title: "Diagnostics & Technology | Essenza Wellness Center",
   description:
-    "State-of-the-art neurotechnology and diagnostic tools — including qEEG brain mapping, TMS, advanced labs, and more — powering precise, personalized care.",
+    "State-of-the-art neurotechnology and diagnostic tools including qEEG brain mapping, TMS, advanced labs, and more powering precise, personalized care.",
 };
 
 const technologies = [
@@ -41,14 +41,14 @@ const technologies = [
     icon: BarChart3,
     name: "Neuro",
     title: "Neuropsychological Testing",
-    description: "Validated cognitive assessments measuring memory, attention, processing speed, and executive function — establishing baselines and tracking treatment response over time.",
+    description: "Validated cognitive assessments measuring memory, attention, processing speed, and executive function establishing baselines and tracking treatment response over time.",
     tag: "Diagnostic",
   },
   {
     icon: Shield,
     name: "Monitor",
     title: "Continuous Outcome Monitoring",
-    description: "Digital outcome tracking platforms that capture symptom changes, functional improvements, and patient-reported data — enabling data-driven treatment optimization.",
+    description: "Digital outcome tracking platforms that capture symptom changes, functional improvements, and patient-reported data enabling data-driven treatment optimization.",
     tag: "Monitoring",
   },
 ];
@@ -72,7 +72,7 @@ export default function DiagnosticsTechnologyPage() {
             <span className="text-highlight">Technology</span>
           </h1>
           <p className="text-lg md:text-xl text-muted mt-6 max-w-3xl mx-auto leading-relaxed">
-            We invest in the most advanced neurotechnology available — because precise diagnosis is the foundation of truly effective care.
+            We invest in the most advanced neurotechnology available because precise diagnosis is the foundation of truly effective care.
           </p>
         </div>
       </section>

@@ -5,7 +5,7 @@ import Container from "../components/Container/Container";
 export const metadata = {
   title: "Insurance & Pricing | Essenza Wellness Center",
   description:
-    "Learn about insurance coverage, payment options, and pricing at Essenza Wellness Center — including HSA/FSA eligibility and concierge options.",
+    "Learn about insurance coverage, payment options, and pricing at Essenza Wellness Center including HSA/FSA eligibility and concierge options.",
 };
 
 const paymentOptions = [
@@ -18,7 +18,7 @@ const paymentOptions = [
   {
     icon: CreditCard,
     title: "Cash-Pay & Self-Pay",
-    description: "Transparent, competitive pricing for self-pay patients. We believe exceptional care should be accessible — ask our team about bundled service options.",
+    description: "Transparent, competitive pricing for self-pay patients. We believe exceptional care should be accessible ask our team about bundled service options.",
     tags: ["Transparent Pricing", "Service Bundles", "No Surprise Bills"],
   },
   {
@@ -38,7 +38,7 @@ const paymentOptions = [
 const faqs = [
   {
     question: "Does insurance cover TMS therapy?",
-    answer: "TMS therapy is FDA-cleared and covered by many major insurance plans for treatment-resistant depression. Coverage varies by plan — our team will verify your benefits and handle pre-authorization.",
+    answer: "TMS therapy is FDA-cleared and covered by many major insurance plans for treatment-resistant depression. Coverage varies by plan our team will verify your benefits and handle pre-authorization.",
   },
   {
     question: "Is ketamine therapy covered by insurance?",
@@ -46,11 +46,11 @@ const faqs = [
   },
   {
     question: "What does an initial consultation cost?",
-    answer: "Initial consultation fees vary by specialty and provider. Please contact our office for current pricing — we are committed to transparency and will provide a full cost breakdown before your visit.",
+    answer: "Initial consultation fees vary by specialty and provider. Please contact our office for current pricing we are committed to transparency and will provide a full cost breakdown before your visit.",
   },
   {
     question: "Can I use my HSA or FSA card?",
-    answer: "Yes, we accept HSA and FSA cards for eligible services. Most medical services qualify — contact your HSA/FSA administrator to confirm coverage for specific treatments.",
+    answer: "Yes, we accept HSA and FSA cards for eligible services. Most medical services qualify contact your HSA/FSA administrator to confirm coverage for specific treatments.",
   },
 ];
 
@@ -114,7 +114,7 @@ export default function InsurancePricingPage() {
           <div className="bg-primary rounded-2xl p-10 text-center mb-20">
             <h3 className="text-2xl font-bold text-bg mb-4">Verify Your Insurance Coverage</h3>
             <p className="text-bg/80 mb-8 max-w-xl mx-auto">
-              Our team will check your benefits and provide a clear breakdown of expected costs before your first visit — no surprises.
+              Our team will check your benefits and provide a clear breakdown of expected costs before your first visit no surprises.
             </p>
             <Link
               href="/contact"

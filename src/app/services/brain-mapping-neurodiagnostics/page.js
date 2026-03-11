@@ -21,7 +21,7 @@ const benefits = [
   {
     icon: Brain,
     title: "Precision Targeting",
-    description: "qEEG guides TMS and neurofeedback to the exact brain regions that need stimulation — removing guesswork from treatment planning.",
+    description: "qEEG guides TMS and neurofeedback to the exact brain regions that need stimulation removing guesswork from treatment planning.",
   },
   {
     icon: BarChart3,
@@ -31,7 +31,7 @@ const benefits = [
   {
     icon: Microscope,
     title: "Personalized Protocols",
-    description: "Every treatment plan is informed by your unique brain signature — not just symptoms — enabling truly individualized care.",
+    description: "Every treatment plan is informed by your unique brain signature not just symptoms enabling truly individualized care.",
   },
   {
     icon: Shield,
@@ -59,7 +59,7 @@ export default function BrainMappingPage() {
             <span className="text-highlight">Neurodiagnostics</span>
           </h1>
           <p className="text-lg md:text-xl text-muted mt-6 max-w-3xl mx-auto leading-relaxed">
-            Quantitative EEG (qEEG) technology that maps your brain's unique activity patterns — enabling precision-guided, personalized treatment planning.
+            Quantitative EEG (qEEG) technology that maps your brain's unique activity patterns enabling precision-guided, personalized treatment planning.
           </p>
           <div className="inline-flex items-center gap-2 mt-6 text-sm text-muted">
             <span className="font-bold text-text text-lg">QEEG</span>

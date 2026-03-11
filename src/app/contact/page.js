@@ -68,7 +68,7 @@ export default function ContactPage() {
                 Ready to Begin Your Journey?
               </h2>
               <p className="text-lg text-muted leading-relaxed mb-8">
-                Take the first step toward optimal brain health and lasting wellness. Our team is here to support you every step of the way — in person or via telehealth.
+                Take the first step toward optimal brain health and lasting wellness. Our team is here to support you every step of the way in person or via telehealth.
               </p>
 
               <div className="space-y-4">

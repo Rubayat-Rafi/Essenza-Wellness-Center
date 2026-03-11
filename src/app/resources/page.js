@@ -13,19 +13,19 @@ const articles = [
     icon: Brain,
     category: "Mental Health",
     title: "Understanding Treatment-Resistant Depression",
-    description: "Learn about why some patients don't respond to standard antidepressants and what advanced options — including TMS and ketamine — offer as alternatives.",
+    description: "Learn about why some patients don't respond to standard antidepressants and what advanced options including TMS and ketamine offer as alternatives.",
   },
   {
     icon: Microscope,
     category: "Neurotechnology",
     title: "What Is qEEG Brain Mapping?",
-    description: "A patient-friendly guide to quantitative EEG — how it works, what it measures, and why it matters for personalized psychiatric and neurological care.",
+    description: "A patient-friendly guide to quantitative EEG how it works, what it measures, and why it matters for personalized psychiatric and neurological care.",
   },
   {
     icon: Heart,
     category: "Longevity",
     title: "Key Biomarkers for Healthy Aging",
-    description: "Discover which lab markers our longevity specialists track to assess biological age, metabolic health, and cognitive performance — and why they matter.",
+    description: "Discover which lab markers our longevity specialists track to assess biological age, metabolic health, and cognitive performance and why they matter.",
   },
   {
     icon: Shield,
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     question: "Is telehealth available?",
-    answer: "Yes — we offer HIPAA-compliant telehealth for psychiatric consultations, follow-up appointments, and certain evaluations.",
+    answer: "Yes we offer HIPAA-compliant telehealth for psychiatric consultations, follow-up appointments, and certain evaluations.",
   },
   {
     question: "What should I expect at my first visit?",
@@ -72,7 +72,7 @@ export default function ResourcesPage() {
             Resources & <span className="text-highlight">Education</span>
           </h1>
           <p className="text-lg md:text-xl text-muted mt-6 max-w-3xl mx-auto leading-relaxed">
-            Educational guides, clinical insights, and answers to common questions — helping you make informed decisions about your care.
+            Educational guides, clinical insights, and answers to common questions helping you make informed decisions about your care.
           </p>
         </div>
       </section>
